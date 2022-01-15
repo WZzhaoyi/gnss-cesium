@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-cn ">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- 引入访问路径，根据服务器地址修改 -->
+    <script>
+      window['CESIUM_BASE_URL'] = '/cesium';
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
