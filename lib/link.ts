@@ -284,7 +284,7 @@ export function eventToCZML(data: LinksObject, viewProperty: LinkOption, leoID: 
         pixelOffset: {
           cartesian2: [12, 0]
         },
-        scale: 0.5 * scale,
+        scale: 1 * scale,
         show: showAndAvailability.show,
         style: 'FILL_AND_OUTLINE',
         text: gnss,

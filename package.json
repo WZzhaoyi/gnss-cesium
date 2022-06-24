@@ -1,6 +1,6 @@
 {
     "name": "gnss-cesium",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "",
     "private": false,
     "main": "dist/cjs/index.js",
@@ -14,7 +14,14 @@
     "keywords": [
         "cesium"
     ],
-    "author": "wzzhaoyi",
+    "author": {
+        "name": "wzzhaoyi",
+        "email": "wzzhaoyi@outlook.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/WZzhaoyi/gnss-cesium.git"
+    },
     "license": "MIT",
     "dependencies": {
         "cesium": "^1.79.1"
